@@ -19,7 +19,7 @@ jobs:
       - name: Checkout tests code
         uses: actions/checkout@v4
         with:
-          repository: 'fox_meller/go-autotests1'
+          repository: 'Yandex-Practicum/go-autotests'
           path: '.autotests'
 
       - name: Gather files
